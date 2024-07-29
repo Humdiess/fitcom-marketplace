@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg border border-b-light bg-white">
+    <div class="container">
+        <div class="nav-left">
+            <div class="nav-brand">
+                <a href="#" class="text-decoration-none text-dark fw-bold">Amba Store</a>
+            </div>
+        </div>
+        <div class="nav-center d-flex flex-grow-1">
+            <div class="search-input flex-grow-1 mx-2 px-5">
+                <form action="#" class="search">
+                    <div class="input-group rounded-3">
+                        <input type="text" placeholder="Search" class="form-control search-input rounded-3 px-2 py-1">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="nav-right d-flex align-items-center">
+            <div class="features">
+                <div class="features-list">
+                    <ul class="nav-list d-flex align-items-center justify-content-center list-unstyled gap-4 m-0">
+                        <li class="nav-item"><a href=""><i class="fas fa-shopping-cart text-dark"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fas fa-bell text-dark"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fas fa-envelope text-dark"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="vertical-divider">
+                <p></p>
+            </div>
+            <div class="auth">
+                <div class="profile">
+                    <div class="profile-image">
+                        <img class="rounded-circle" src="https://avatars.githubusercontent.com/u/118147438?v=4" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </nav>
+
+  <main class="d-flex w-100">
+    <aside class="sidebar bg-white p-4" style="width: 24rem; height: 100vh;">
+        <div class="sidebar-title">
+            <h2 class="fw-semibold fs-5">Filter</h2>
+        </div>
+      <div class="sidebar-container container shadow-sm mt-3 py-3 rounded-3">
+        <div class="sidebar-list">
+          <ul class="list-item list-unstyled m-0 p-0 gap-3 d-flex align-items-center">
+            <li><a href="#" class="text-decoration-none text-dark">Reparasi</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">Cek Garansi</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <div class="product-list py-3 flex-grow-1">
+        <div class="product-list-wrapper container">
+            <div class="product-list-header d-flex gap-3 align-items-center">
+              <h2 class="fw-semibold fs-5">Ini titel, bisa d isi hasil pencarian, atau kategori ...</h2>
+            </div>
+
+            <div class="product-list-list mt-3 gap-3 d-flex flex-wrap">
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="col-3 product-list-card card text-decoration-none">
+                  <div class="card-body">
+                    <div class="d-flex" style="flex-direction: column;">
+                      <div class="card-image" class="" style="max-width: 170px;">
+                        <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/26/64008f87-2c75-4b9b-a019-5436e9a72c3a.jpg.webp?ect=3g" style="width: 100%;" alt="">
+                      </div>
+                      <div class="card-title mt-4">
+                        <p style="margin-bottom: 0 !important;">Baterai hp xiaomi redmi note 5a</p>
+                      </div>
+                      <div class="card-seller">
+                        <p class="text-muted" style="margin-bottom: 0 !important;">Xiaomi</p>
+                      </div>
+                      <div class="card-price">
+                        <p class="fw-bold">Rp. 1.000.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+            </div> 
+        </div>
+    </div>
+  </main>
+
+  <footer class="footer bg-light">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </footer>
+    
+  <script src="./resources/js/index.js"></script>
+  <script src="https://kit.fontawesome.com/cff8b87f33.js" crossorigin="anonymous"></script>
+  <script src="./node_modules/@popperjs/core/dist/cjs/popper.js"></script>
+</body>
+</html>
